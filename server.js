@@ -2,10 +2,10 @@ const express = require('express');
 
 const app = express();
 
-app.use(express.static('./dist/heroku-test'));
+app.use(express.static('./dist/apps/heroku-test'));
 
 app.get('/*', function (req, res) {
-  res.sendFile('index.html', { root: 'dist/heroku-test' }
+  res.sendFile('index.html', { root: 'dist/apps/heroku-test' }
   );
 });
 

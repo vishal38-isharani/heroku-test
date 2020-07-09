@@ -1,0 +1,21 @@
+{
+  "npmScope": "heroku-test",
+  "affected": {
+    "defaultBase": "master"
+  },
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "heroku-test": {
+      "tags": []
+    },
+    "heroku-test-e2e": {
+      "tags": []
+    }
+  }
+}
